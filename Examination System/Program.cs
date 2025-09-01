@@ -85,7 +85,7 @@ namespace Examination_System
             int time;
             while (true) {
                 time = Console.Read();
-                if (int.TryParse(Console.ReadLine(), out time) && time >= 30 && time <= 100)
+                if (int.TryParse(Console.ReadLine(), out time) && time >= 30 || time <= 100)
                 {
                     break; 
                 }
